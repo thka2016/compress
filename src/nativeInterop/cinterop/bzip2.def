@@ -1,0 +1,6 @@
+package = com.hand.compress
+headers = bzlib.h
+compilerOpts = -Isrc/cpp/bzip2
+linkerOpts = -lbz2_static
+linkerOpts.mingw = -Lsrc/cpp/lib/mingwX64
+linkerOpts.linux = -Lsrc/cpp/lib/linuxX64

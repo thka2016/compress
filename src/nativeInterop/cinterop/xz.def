@@ -1,0 +1,6 @@
+package = com.hand.compress
+headers = lzma.h
+compilerOpts = -Isrc/cpp/xz/src/liblzma/api
+linkerOpts = -llzma
+linkerOpts.mingw = -Lsrc/cpp/lib/mingwX64
+linkerOpts.linux = -Lsrc/cpp/lib/linuxX64
