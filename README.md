@@ -1,2 +1,1 @@
-# compress
-compress binding for kotlin multiplatform
+bzip, xz support kotlin jvm, native targets
