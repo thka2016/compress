@@ -1,6 +1,6 @@
 package = com.hand.compress
 headers = libbz3.h
 compilerOpts = -Isrc/cpp/include
-linkerOpts = -lbzip3
+#linkerOpts = -lbzip3
 linkerOpts.mingw = -Lsrc/cpp/lib/mingwX64
 linkerOpts.linux = -Lsrc/cpp/lib/linuxX64
